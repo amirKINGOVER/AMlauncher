@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMlauncher - الموقع الرسمي للتحميل</title>
+    <!-- استدعاء مكتبة Tailwind CSS للتصميم السريع والاحترافي -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- خط عربي جميل (Cairo) -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col justify-between">
+
+    <!-- Header / شريط التنقل -->
+    <header class="border-b border-slate-800 bg-slate-900/50 backdrop-blur-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="bg-indigo-600 text-white font-black text-2xl px-3 py-1 rounded-xl shadow-lg shadow-indigo-500/30">AM</div>
+                <span class="text-xl font-bold tracking-wide">AMlauncher</span>
+            </div>
+            <nav class="hidden md:flex gap-8 text-sm font-semibold text-slate-300">
+                <a href="#downloads" class="hover:text-indigo-400 transition">التحميلات</a>
+                <a href="#features" class="hover:text-indigo-400 transition">المميزات</a>
+                <a href="#updates" class="hover:text-indigo-400 transition">سجل التحديثات</a>
+            </nav>
+            <div>
+                <a href="#downloads" class="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2.5 rounded-xl font-bold text-sm shadow-lg shadow-indigo-600/30 transition">
+                    حمل الآن
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section / الواجهة الرئيسية -->
+    <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center flex-grow flex flex-col items-center justify-center">
+        <span class="bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 text-xs font-bold px-4 py-1.5 rounded-full mb-6 uppercase tracking-wider">
+            🚀 الإصدارات الأحدث متوفرة الآن
+        </span>
+        <h1 class="text-4xl sm:text-6xl font-black tracking-tight max-w-3xl leading-tight mb-6">
+            اللانشر الأفضل لتجربة ألعاب واستخدام <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500">خرافية</span>
+        </h1>
+        <p class="text-slate-400 text-lg max-w-2xl mb-10">
+            استمتع بسلاسة الأداء، واجهة مستخدم أنيقة، وتحديثات مستمرة لضمان أفضل تجربة ممكنة. اختر إصدارك المفضّل وابدأ الان.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="#downloads" class="bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-4 rounded-xl font-bold text-base shadow-xl shadow-indigo-600/30 transition flex items-center gap-2">
+                <span>📥 تصفح الإصدارات</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Downloads Section / قسم التحميلات -->
+    <section id="downloads" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-black mb-3">مركز التحميلات</h2>
+            <p class="text-slate-400">اختر الإصدار الذي يناسبك، وتابع التحديثات أولاً بأول.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            
+            <!-- AMlauncher 1.2 (الأحدث) -->
+            <div class="bg-slate-900 border-2 border-indigo-500/50 rounded-2xl p-6 relative shadow-2xl shadow-indigo-950/50 flex flex-col justify-between">
+                <span class="absolute -top-3 right-6 bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow">الأحدث 🔥</span>
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-2xl font-black">AMlauncher v1.2</h3>
+                        <span class="text-xs text-slate-400 bg-slate-800 px-2.5 py-1 rounded-md">مستقر</span>
+                    </div>
+                    <p class="text-slate-400 text-sm mb-6">
+                        يحتوي على تحسينات جذرية في الأداء، إصلاح الأخطاء السابقة، واجهة محسنة، ومزايا جديدة كلياً تطلبها المجتمع.
+                    </p>
+                </div>
+                <div>
+                    <a href="links/AMlauncher-v1.2.exe" class="block text-center bg-indigo-600 hover:bg-indigo-500 text-white font-bold py-3 rounded-xl transition shadow-lg shadow-indigo-600/20">
+                        تحميل الإصدار 1.2 (Windows)
+                    </a>
+                </div>
+            </div>
+
+            <!-- AMlauncher 1.0 -->
+            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-center mb-4">
+                        <h3 class="text-2xl font-black">AMlauncher v1.0</h3>
+                        <span class="text-xs text-slate-400 bg-slate-800 px-2.5 py-1 rounded-md">الإصدار الأساسي</span>
+                    </div>
+                    <p class="text-slate-400 text-sm mb-6">
+                        الإصدار الأول الكلاسيكي والمستقر تماماً لمن يفضلون النسخة الأولى بدون إضافات معقدة.
+                    </p>
+                </div>
+                <div>
+                    <a href="links/AMlauncher-v1.0.exe" class="block text-center bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold py-3 rounded-xl transition">
+                        تحميل الإصدار 1.0 (Windows)
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Upcoming Updates / التحديثات القادمة -->
+    <section id="updates" class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full text-center">
+        <div class="bg-gradient-to-br from-indigo-950/40 to-slate-900 border border-indigo-500/20 rounded-3xl p-8 sm:p-12">
+            <h2 class="text-2xl sm:text-3xl font-black mb-4">المزيد من التحديثات القادمة قريباً! ⏳</h2>
+            <p class="text-slate-400 max-w-xl mx-auto mb-6">
+                نحن نعمل بجهد على تطوير ميزات خرافية وإصدارات قادمة (مثل v1.3 وأعلى) لتوفير أفضل تجربة ممكنة. ترقبونا!
+            </p>
+            <div class="inline-block bg-indigo-500/10 text-indigo-400 px-4 py-2 rounded-xl text-sm font-semibold border border-indigo-500/20">
+                حالة التطوير: جاري العمل على التحديثات القادمة ⚡
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / الفوتر -->
+    <footer class="border-t border-slate-800 py-8 text-center text-slate-500 text-sm">
+        <p>جميع الحقوق محفوظة © 2026 - <span class="text-slate-300 font-bold">AMlauncher</span></p>
+    </footer>
+
+</body>
+</html>
